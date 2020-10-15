@@ -1,0 +1,656 @@
+* {
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+
+
+/*Header*/
+
+.header {
+    height: 90px;
+    background: white;
+    width: 100%;
+}
+
+.navbar {
+    padding-left: 0;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.logo {
+    height: 25px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #33cc33;
+}
+
+/*Intro*/
+
+.intro {
+    padding: 100px 0;
+    height: auto;
+    width: 100%;
+}
+
+.intro-content h2 {
+    line-height: 60px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.intro-content h2 text {
+    color: #33cc33;
+}
+
+.intro-content h5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;    
+}
+
+.intro-content h5 text {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.intro-content h4 {
+    margin: 60px 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.intro-content a {
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 30px 30px;
+    background: #33cc33;
+}
+
+.intro-content a:hover {
+    background: #1ea81e;
+}
+
+.remark {
+    margin-top: 60px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.features {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.feature {
+    padding: 10px;
+}
+
+.feature-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature-img {
+    height: 40px;
+}
+
+.feature-text {
+    font-size: 16px;
+}
+
+/*Trust*/
+
+.trust {
+    padding: 60px 0;
+    height: auto;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.trust-title {
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.trust-title text {
+    color: #33cc33;
+}
+
+.trust-cards {
+
+}
+
+.trust-card {
+    height: 280px;
+    margin-top: 30px;
+    background: white;
+    padding: 30px 30px 40px;
+}
+
+.trust-card img {
+    height: 40px;
+}
+
+.trust-card h2 {
+    margin: 20px 0;
+    color: black;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.trust-card p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.plans {
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+    background-color: white;
+}
+
+.plans-cards{
+    margin-bottom: 50px;
+}
+
+.plan-card {
+    border-radius: 15px;
+    height: 700px;
+    padding: 27px 50px;
+    background: white;
+    text-align: center;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.125), 0 10px 10px rgba(0,0,0,0.11);
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+.plan-card:hover {
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.plan-card h2 {
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.plan-card h4 {
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.plan-links {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.plan-links text {
+    font-weight: 800;
+    color: black;
+}
+
+.plan-price {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.plan-card a {
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 15px;
+    background: #33cc33;
+}
+
+.plan-card a:hover {
+    background: #1ea81e;
+}
+
+.spec-1 {
+    margin-bottom: 50px;
+}
+
+.spec-title {
+    font-size: 18px;
+    color: #33cc33;
+}
+
+.spec-title img {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.spec-1 h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.spec-1 h4 {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.spec-1 p {
+    margin: 20px 0;
+}
+
+.spec-1 a {
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 30px;
+    background: #33cc33;
+}
+
+.spec-2 {
+    background: #f7f7f7;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    padding: 25px;
+    text-align: left;
+}
+
+.card1 h2 {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 800;    
+}
+
+.card-title {
+    margin: 30px 0;
+}
+
+.feature1 {
+    margin-bottom: 50px;
+}
+
+.feature1 img {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.feature1-title {
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.suit {
+    text-align: center;
+}
+
+.suit-title {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: #33cc33;
+    margin: 0;
+}
+
+.contact img {
+    margin-left: 20px;
+    margin-right: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.mechanism {
+    padding: 60px 0;
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.mech-title h2{
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.mech-card {
+    margin: 40px 0;
+    text-align: left;
+}
+
+.mech-num {
+    font-weight: 800;
+    margin-left: 0;
+    background: #33cc33;
+    font-size: 20px;
+    border-radius: 100px;
+    color: white;
+    padding: 15px;
+    height: 40px;
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.mech-card h4 {
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.why {
+    text-align:center;
+    padding: 60px 0;
+    background: #33cc33;
+}
+
+.why-title {
+    color: white;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.why-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.faq {
+    padding: 60px 0;
+    background: white;
+}
+
+.faq-title {
+    text-align: center;
+    font-weight: 800;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+.accordion a {
+    text-decoration: none;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 700;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+    cursor: pointer;
+    color: black;
+}
+
+.accordion a:hover::after {
+    background: #33cc33;
+}
+
+.accordion a::after {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    content: '+';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 30px;
+    color: #7288a2;
+    padding: 5px;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+.accordion a.active::after {
+    content: '-';
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+}
+
+.footer {
+    background: white;
+    padding: 60px 0;
+}
+
+.footer-contacts {
+    text-align: right;
+}
+
+.footer-contacts h4 {
+    font-weight: 800;
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-contacts a {
+    margin-right: 10px;
+}
+
+.policy-block a img {
+    margin-bottom: 20px;
+}
+
+.policy {
+    margin-bottom: 0;
+    color: #33cc33;
+}
+
+.contacts {
+    text-align: left;
+    padding: 60px 0;
+    background-color: #292929;
+}
+
+.contacts-title {
+    color: white;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.contacts-box p{
+    margin: 20px 0;
+    color: white;
+}
+
+.contacts-box form input {
+    outline: none;
+    border: none;
+    background: white;
+    outline: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.contacts-box form button {
+    color: white;
+    outline: none;
+    border: none;
+    background: #33cc33;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
+.confirm {
+    color: white;
+    font-size: 14px;
+}
+.testimonials {
+    padding: 60px 0;
+}
+
+.testimonials-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.contacts2 {
+    color: white;
+    background: #292929;
+    padding: 60px 0;
+}
+
+.contacts2-img {
+    text-align: center;
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+    
+    .intro-content h2 {
+        font-size: 30px;
+    }
+    
+    .contacts-box form button {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .testimonials {
+        display: none;
+    }
+    
+    .plan-card {
+        margin-bottom: 10px;
+
+    }
+}
