@@ -260,6 +260,7 @@
 
 .spec-1 {
   margin-bottom: 50px;
+  padding-left: 50px;
 }
 
 .spec-title {
@@ -876,5 +877,35 @@ input {
 
   .plan-card {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .intro {
+    padding: 100px 0;
+    height: auto;
+    width: 100%;
+    background-image: none;
+  }
+
+  .check-examples {
+    display: flex;
+    margin-bottom: 150px;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .check-example {
+    width: 90%;
+    margin-right: 4%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
