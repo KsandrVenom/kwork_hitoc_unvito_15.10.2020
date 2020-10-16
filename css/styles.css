@@ -2,7 +2,7 @@
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Gilroy", sans-serif;
 }
 
 .container {
@@ -59,6 +59,7 @@
   padding: 100px 0;
   height: auto;
   width: 100%;
+  background: url(../img/bgh.png) no-repeat top 57px right 100px;
 }
 
 .intro-content h2 {
@@ -376,7 +377,7 @@
 
 .mech-card {
   margin: 40px 0;
-  text-align: left;
+  padding-left: 40px;
 }
 
 .mech-num {
@@ -473,6 +474,35 @@
   object-fit: contain;
   width: 100%;
   height: 100%;
+  margin-top: 20px;
+}
+
+/* увеличение картинки */
+
+.container-image {
+  display: inline-block;
+}
+
+.zoom-img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.full {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8%;
+  background: #ccc center no-repeat;
+  background: rgba(0, 0, 0, 0.5) center no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+}
+.container-image:focus + .full {
+  display: block;
 }
 
 .why {
