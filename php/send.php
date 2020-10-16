@@ -16,13 +16,14 @@ $name = trim($name);
 $tel = trim($tel);
 $email = trim($email);
 
-echo $name;
-echo "<br>";
-echo $tel;
-echo "<br>";
-echo $email;
 
-mail("clif007@yandex.ru", "Заявка с сайта", "ФИО:".$name.". E-mail: ".$email ,"From: info@uviton.com\r\n");
+
+if (mail("hitosroot@gmail.com", "Заказ с сайта", "Имя ".$name. " , Телефон: " .$tel. " , E-mail: ".$email, "From: info@uviton.com \r\n"))
+ {
+    echo "сообщение успешно отправлено";
+} else {
+    echo "при отправке сообщения возникли ошибки";
+}
 
 ?>
 
