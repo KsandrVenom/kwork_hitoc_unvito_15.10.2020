@@ -20,7 +20,7 @@ $email = trim($email);
 
 if (mail("hitosroot@gmail.com", "Заказ с сайта", "Имя ".$name. " , Телефон: " .$tel. " , E-mail: ".$email, "From: info@uviton.com \r\n"))
  {
-    echo "сообщение успешно отправлено";
+    echo "<script>window.location.href='https://uviton.com/';</script>";
 } else {
     echo "при отправке сообщения возникли ошибки";
 }
