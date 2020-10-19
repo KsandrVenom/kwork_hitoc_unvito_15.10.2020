@@ -59,7 +59,10 @@
   padding: 100px 0;
   height: auto;
   width: 100%;
-  background: url(../img/bgh.png) no-repeat top 57px right 100px;
+}
+
+.intro .container {
+  background: url(../img/bgh.png) no-repeat top -30px right;
 }
 
 .intro-content h2 {
@@ -696,7 +699,7 @@
   transition: background-color 0.6s ease;
 }
 
-.active,
+.slider-dots_item.active,
 .slider-dots_item:hover {
   background-color: #aaa;
 }
@@ -871,20 +874,13 @@ input {
     margin-left: 0;
   }
 
-  .testimonials {
-    display: none;
-  }
-
   .plan-card {
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 780px) {
-  .intro {
-    padding: 100px 0;
-    height: auto;
-    width: 100%;
+  .intro .container {
     background-image: none;
   }
 
